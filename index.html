@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+            
+        
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            background-color: black;
+        }
+
+        .row .column {
+            flex: 33.3%;
+            overflow: hidden;
+            width: auto;
+            padding: 0 4px;
+            height: 100%;
+        }
+
+        .row .column img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .row .column {
+                flex: 100%;
+            }
+
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="download.jpg">
+                <img src="download2.jpg">
+                <img src="download3.jpg">
+            </div>
+            <div class="column">
+                <img src="download1.jpg">
+                <img src="download4.jpg">
+                <img src="download2.jpg">
+            </div>
+            <div class="column">
+                <img src="download3.jpg">
+                <img src="download1.jpg">
+                <img src="download.jpg">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
